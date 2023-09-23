@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react'
+import React from 'react'
 import QrReader from 'react-qr-reader'
 
 export default function QrScanner({setData}) {
