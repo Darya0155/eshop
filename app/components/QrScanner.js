@@ -17,7 +17,7 @@ export default function QrScanner({setData}) {
         delay={300}
         onError={handleError}
         onScan={handleScan}
-        style={{ width: '25%' }}
+        // style={{ width: '25%' }}
         />
     </div>
   )
