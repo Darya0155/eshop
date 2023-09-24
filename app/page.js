@@ -1,6 +1,7 @@
 'use client'
 import React ,{ useState } from "react";
 import QrScanner from "./components/QrScanner";
+import QrCodeGenrator from "./components/QrCodeGenrator";
 
 
 export default function Home() {
@@ -15,6 +16,8 @@ export default function Home() {
        <QrScanner setData={setQRResult}></QrScanner>
        ############
        {qrResult.decodedText}
+
+       <QrCodeGenrator value={JSON.stringify({name:"Deepak Arya"})}/>
     </main>
   )
 }
