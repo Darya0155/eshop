@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <main className="max-w-md m-auto sm:mt-56 md:mt-2 rounded-xl">
        <QrScanner setData={setQRResult}></QrScanner>
-       
-       {qrResult}
+       ############
+       {qrResult.decodedText}
     </main>
   )
 }
